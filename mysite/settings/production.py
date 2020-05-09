@@ -35,7 +35,7 @@ DATABASES = {
         'NAME': 'mysite_db',
         'USER': 'tnn',
         'PASSWORD': DATABASE_PASSWORD,
-        'HOST': 'localhost',
+        'HOST': '123.56.3.89',
         'PORT': 3306,
         'charset': 'utf8'
     }
