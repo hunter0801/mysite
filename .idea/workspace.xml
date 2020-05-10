@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88bed29b-268b-4e67-bc35-6cca0e04c054" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/user_info.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="307">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="e#305#314#0" expanded="true" />
               </folding>
@@ -155,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="161" />
     <option name="y" value="69" />
     <option name="width" value="1077" />
@@ -173,21 +168,6 @@
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,12 +384,12 @@
       <workItem from="1588562305486" duration="1220000" />
       <workItem from="1588579740359" duration="6501000" />
       <workItem from="1588816754259" duration="7138000" />
-      <workItem from="1588914289903" duration="22639000" />
+      <workItem from="1588914289903" duration="23840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401911000" />
+    <option name="totallyTimeSpent" value="403112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,15 +401,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="161" y="69" width="1077" height="735" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14469697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18817735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24342105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992126" visible="true" weight="0.16282895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992126" visible="true" weight="0.16527545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36227044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -906,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="307">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="e#305#314#0" expanded="true" />
           </folding>
