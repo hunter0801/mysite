@@ -22,7 +22,7 @@ SECRET_KEY = '8m8nwd_5l!=)nh1#nvt@zs6q(*n*q8&s@%+=b4#d1#iziyw&&c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
@@ -32,10 +32,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mytest',
+        'NAME': 'mysite_db',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'PASSWORD': 'root666666',
+        'HOST': '123.56.3.89',
         'PORT': 3306,
         'charset': 'utf8'
     }
@@ -45,7 +45,7 @@ DATABASES = {
 # 发送邮件设置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
-EMAIL_PORT = 25
+EMAIL_PORT = 587
 EMAIL_HOST_USER = '1130266522@qq.com'
 EMAIL_HOST_PASSWORD = 'lwoosgnkahhwiaij' # 授权码
 EMAIL_SUBJECT_PREFIX = '[tiannuonuo的博客]'

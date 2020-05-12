@@ -20,8 +20,8 @@ from .base import *
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
+#DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # Database
@@ -34,7 +34,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mysite_db',
         'USER': 'tnn',
-        'PASSWORD': DATABASE_PASSWORD,
+        #'PASSWORD': DATABASE_PASSWORD,
+	'PASSWORD': 'tnn666666'
         'HOST': '123.56.3.89',
         'PORT': 3306,
         'charset': 'utf8'
@@ -46,8 +47,10 @@ DATABASES = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 465 # 阿里云邮件端口
+#EMAIL_PORT = 587
 EMAIL_HOST_USER = '1130266522@qq.com'
-EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD'] # 授权码
+#MAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD'] # 授权码
+EMAIL_HOST_PASSWORD = 'lwoosgnkahhwiaij'
 EMAIL_SUBJECT_PREFIX = '[tiannuonuo的博客]'
 EMAIL_USE_SSL = True # 与smtp服务器通信时，是否启动TLS链接（安全链接）
 
