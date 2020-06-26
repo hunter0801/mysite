@@ -2,3 +2,4 @@ settings.py
 __pycache__/
 static_collected/
 .idea/
+test-ignore.txt
